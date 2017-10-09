@@ -8,11 +8,9 @@ import { Component } from '@angular/core'
 })
 
 export class ContactsComponent{
-	names:Array<string|number> = [
-		'John',
-		'Joan',
-		'Micheal'
-		];
-
-		isVisible:boolean = true;
+	user:object = {
+		firstName: 'John',
+		lastName: 'Doe',
+		email: 'example@example.com'
+		};
 }
